@@ -14,46 +14,16 @@
 
     <div class="d-flex align-items-center justify-content-center text-center bg-dark overflow-hidden"
         style="min-height: 100vh;">
-        <div class="bg-light rounded-4 col-3 text-dark" style="min-height: 300px;">
-            <div class="bg-primary p-4 flex-row d-flex justify-content-center align-items-center rounded-3 text-light"
-                style="height: 135px;">
-                <i class="fa-solid fa-cloud m-3" style="font-size: 56px;"></i>
-                <span class="m-3">
-                    <p class="text-start mb-0">Tokat</p>
-                    <h2>22°C</h2>
-                </span>
-                <span class="m-3">
-                    <i class="fa-solid fa-droplet"></i>
-                    <h4>30%</h4>
-                </span>
-            </div>
-            <div class="m-2">
-                <span>Haftalık</span><br>
-                <div class="text-start m-3">
-                    <span>Pazartesi<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C
-                            <i class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Salı<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C <i
-                                class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Çarşamba<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C <i
-                                class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Perşembe<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C <i
-                                class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Cuma<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C <i
-                                class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Cumartesi<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C
-                            <i class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                    <span>Pazar<span class="float-end"><i class="fa-solid fa-cloud me-5"></i><i
-                                class="fa-solid fa-temperature-three-quarters"></i> 22°C <i
-                                class="ms-3 fa-solid fa-droplet"></i> 30%</span></span><br>
-                </div>
-            </div>
-
+        <div class="bg-primary p-4 flex-row d-flex justify-content-center align-items-center rounded-3 text-light"
+            style="height: 135px;">
+            <span class="m-3" id="curWeatherCond" style="font-size: 56px;"><i class="fa-solid fa-cloud"></i></span>
+            <span class="m-3">
+                <h2 id="curTemp">...</h2>
+            </span>
+            <span class="m-3">
+                <i class="fa-solid fa-droplet"></i>
+                <h4 id="curRain">...</h4>
+            </span>
         </div>
     </div>
 
